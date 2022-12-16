@@ -1,0 +1,81 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-test-product",
+      "blocks": {
+        "88345b1b-c84f-470a-aa12-c4994cc38781": {
+          "type": "shipping_notice_block",
+          "settings": {
+            "shipping_notice_text": "Ships in 50 days"
+          }
+        },
+        "5cd1252d-022e-472b-9203-d1407aa412c4": {
+          "type": "tax_notice_block",
+          "settings": {
+            "tax_notice_text": "Tax included"
+          }
+        },
+        "e075086c-7889-4059-8fd1-4a169bb159b7": {
+          "type": "product_price_block",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "88345b1b-c84f-470a-aa12-c4994cc38781",
+        "5cd1252d-022e-472b-9203-d1407aa412c4",
+        "e075086c-7889-4059-8fd1-4a169bb159b7"
+      ],
+      "settings": {
+        "show_reviews": true
+      }
+    },
+    "fb0c1058-394b-4b95-bdef-bb2227dc0467": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17245480911134__fb0c1058-394b-4b95-bdef-bb2227dc0467-1671139718a8fd17b4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "test",
+            "heading_size": "h1"
+          }
+        },
+        "template--17245480911134__fb0c1058-394b-4b95-bdef-bb2227dc0467-1671139718a8fd17b4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>test text<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--17245480911134__fb0c1058-394b-4b95-bdef-bb2227dc0467-1671139718a8fd17b4-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Test Button Label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17245480911134__fb0c1058-394b-4b95-bdef-bb2227dc0467-1671139718a8fd17b4-0",
+        "template--17245480911134__fb0c1058-394b-4b95-bdef-bb2227dc0467-1671139718a8fd17b4-1",
+        "template--17245480911134__fb0c1058-394b-4b95-bdef-bb2227dc0467-1671139718a8fd17b4-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_4.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "fb0c1058-394b-4b95-bdef-bb2227dc0467"
+  ]
+}

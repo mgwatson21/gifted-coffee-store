@@ -213,6 +213,12 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "main-test-product": {
+        "type": "main-test-product",
+        "settings": {
+          "show_reviews": true
+        }
       }
     },
     "content_for_index": []
