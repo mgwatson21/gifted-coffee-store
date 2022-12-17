@@ -6,63 +6,9 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
-    },
-    "20963020-025d-429f-b520-18533fe5db9b": {
-      "type": "testimonial-slider",
-      "blocks": {
-        "043fef2b-44ab-469a-a268-f14af2aa2962": {
-          "type": "testimonial",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam felis justo, aliquam eu arcu non, commodo ultricies arcu. Nulla tempor est nulla, at porttitor nisl vehicula quis<\/p>",
-            "name": "Mark",
-            "image": "shopify:\/\/shop_images\/user_1.jpg"
-          }
-        },
-        "23b1b592-23f7-42b0-94ad-0abfad52fee2": {
-          "type": "testimonial",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam felis justo, aliquam eu arcu non, commodo ultricies arcu. Nulla tempor est nulla, at porttitor nisl vehicula quis<\/p>",
-            "name": "Justin",
-            "image": "shopify:\/\/shop_images\/user_3.jpg"
-          }
-        },
-        "5bc9e6d2-913a-4974-a892-e726fc46bcc4": {
-          "type": "testimonial",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam felis justo, aliquam eu arcu non, commodo ultricies arcu. Nulla tempor est nulla, at porttitor nisl vehicula quis<\/p>",
-            "name": "Kelly",
-            "image": "shopify:\/\/shop_images\/user_2.jpg"
-          }
-        },
-        "a0f567af-a271-473e-91fd-be9d667a47f5": {
-          "type": "testimonial",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam felis justo, aliquam eu arcu non, commodo ultricies arcu. Nulla tempor est nulla, at porttitor nisl vehicula quis<\/p>",
-            "name": "Rebecca",
-            "image": "shopify:\/\/shop_images\/user_5.jpg"
-          }
-        },
-        "51181095-8b7b-4bd2-9d53-f60e1085d421": {
-          "type": "testimonial",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam felis justo, aliquam eu arcu non, commodo ultricies arcu. Nulla tempor est nulla, at porttitor nisl vehicula quis<\/p>",
-            "name": "Joe",
-            "image": "shopify:\/\/shop_images\/user_4.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "043fef2b-44ab-469a-a268-f14af2aa2962",
-        "23b1b592-23f7-42b0-94ad-0abfad52fee2",
-        "5bc9e6d2-913a-4974-a892-e726fc46bcc4",
-        "a0f567af-a271-473e-91fd-be9d667a47f5",
-        "51181095-8b7b-4bd2-9d53-f60e1085d421"
-      ],
-      "settings": {}
     }
   },
   "order": [
-    "main",
-    "20963020-025d-429f-b520-18533fe5db9b"
+    "main"
   ]
 }

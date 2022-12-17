@@ -38,46 +38,23 @@
           "type": "description",
           "settings": {}
         },
-        "collapsible-row-0": {
+        "bb0bc1a9-3b9a-4f63-bf88-4fe6eada40e9": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Shipping & Returns",
+            "heading": "Shipping Times",
             "icon": "truck",
-            "content": "",
+            "content": "<p>{{ product.metafields.custom.shipping.value }}<\/p>",
             "page": ""
           }
         },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
+        "bf971fb8-a31f-439d-ad64-57156025903f": {
+          "type": "coffee_info",
           "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "",
-            "page": ""
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
+            "taste": "{{ product.metafields.custom.taste.value }}",
+            "strength": "{{ product.metafields.custom.strength.value }}",
+            "acidity": "{{ product.metafields.custom.acidity.value }}",
+            "type": "{{ product.metafields.custom.type.value }}",
+            "origin": "{{ product.metafields.custom.origin.value }}"
           }
         }
       },
@@ -89,11 +66,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "collapsible-row-0",
-        "collapsible-row-1",
-        "collapsible-row-2",
-        "collapsible-row-3",
-        "share"
+        "bb0bc1a9-3b9a-4f63-bf88-4fe6eada40e9",
+        "bf971fb8-a31f-439d-ad64-57156025903f"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -189,11 +163,89 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "b299b765-02ce-4f70-b332-6638ccb13474": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17241809256734__b299b765-02ce-4f70-b332-6638ccb13474-16712480333429a5f2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Testimonials<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--17241809256734__b299b765-02ce-4f70-b332-6638ccb13474-16712480333429a5f2-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "4f085231-db55-4d11-b3d0-ec71235b6eb9": {
+      "type": "testimonial-slider",
+      "blocks": {
+        "823058d1-c261-4c8a-a326-484583442262": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam felis justo, aliquam eu arcu non, commodo ultricies arcu. Nulla tempor est nulla, at porttitor nisl vehicula quis<\/p>",
+            "name": "Mark",
+            "image": "shopify:\/\/shop_images\/user_3.jpg"
+          }
+        },
+        "5426bc7a-bcab-4cc9-8393-e38fbca79c2a": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam felis justo, aliquam eu arcu non, commodo ultricies arcu. Nulla tempor est nulla, at porttitor nisl vehicula quis<\/p>",
+            "name": "Joe",
+            "image": "shopify:\/\/shop_images\/user_4.jpg"
+          }
+        },
+        "1ec0bd6f-4183-41d5-bd3c-c514003315ac": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam felis justo, aliquam eu arcu non, commodo ultricies arcu. Nulla tempor est nulla, at porttitor nisl vehicula quis<\/p>",
+            "name": "Sarah",
+            "image": "shopify:\/\/shop_images\/user_2.jpg"
+          }
+        },
+        "aac1a1e1-be6b-4589-90e8-aa51aa4bb394": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam felis justo, aliquam eu arcu non, commodo ultricies arcu. Nulla tempor est nulla, at porttitor nisl vehicula quis<\/p>",
+            "name": "Nicole",
+            "image": "shopify:\/\/shop_images\/user_5.jpg"
+          }
+        },
+        "8e327ba0-6da8-4a6f-88ec-b8f0e3211ea6": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam felis justo, aliquam eu arcu non, commodo ultricies arcu. Nulla tempor est nulla, at porttitor nisl vehicula quis<\/p>",
+            "name": "Nick",
+            "image": "shopify:\/\/shop_images\/user_1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "823058d1-c261-4c8a-a326-484583442262",
+        "5426bc7a-bcab-4cc9-8393-e38fbca79c2a",
+        "1ec0bd6f-4183-41d5-bd3c-c514003315ac",
+        "aac1a1e1-be6b-4589-90e8-aa51aa4bb394",
+        "8e327ba0-6da8-4a6f-88ec-b8f0e3211ea6"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "main",
     "multicolumn",
-    "ab50e604-a981-499b-932e-be6dd0a8c305"
+    "ab50e604-a981-499b-932e-be6dd0a8c305",
+    "b299b765-02ce-4f70-b332-6638ccb13474",
+    "4f085231-db55-4d11-b3d0-ec71235b6eb9"
   ]
 }

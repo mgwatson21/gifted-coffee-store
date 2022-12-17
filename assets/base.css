@@ -2987,3 +2987,17 @@ details-disclosure > details {
 .testimonial-name {
   text-align: center;
 }
+
+.coffee-info {
+  width: 100%;
+}
+
+.coffee-indicator {
+  display: flex;
+}
+
+.coffee-indicator svg {
+  max-width: 30px;
+  max-height: 30px;
+  margin: 10px 0;
+}
